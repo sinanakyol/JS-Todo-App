@@ -1,0 +1,51 @@
+body {
+  background-color: #a1c298;
+}
+
+.card {
+  background-color: #fbf2cf;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+.task {
+  background-color: #c6ebc5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task label.checked {
+  text-decoration: line-through;
+}
+
+.controls {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.filters span.active {
+  color: #3c87ff;
+}
+
+.filters span {
+  margin-right: 5px;
+  font-size: 15px;
+  color: #444444;
+  cursor: pointer;
+}
+
+.btn_add {
+  background-color: #fad6a5;
+}
+
+.btn_clear {
+  background-color: #cfb997;
+}
+
+.btn_title {
+  background-color: #61764b;
+}
