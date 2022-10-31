@@ -17,7 +17,7 @@ function displayTasks(filter) {
   ul.innerHTML = "";
 
   if (gorevListesi.length == 0) {
-    ul.innerHTML = "<p class='p-3 m-0'>Görev listeniz boş.</p>";
+    ul.innerHTML = "<p class='p-3 m-0'>Your list is empty.</p>";
   } else {
     for (let gorev of gorevListesi) {
       let completed = gorev.durum == "completed" ? "checked" : "";
@@ -34,8 +34,8 @@ function displayTasks(filter) {
                   <i class="fa-solid fa-ellipsis"></i>
                 </button>
                 <ul class="dropdown-menu">
-                  <li><a onclick="deleteTask(${gorev.id})" class="dropdown-item" href="#"><i class="fa-solid fa-trash-can"></i> Sil</a></li>
-                  <li><a onclick= 'editTask(${gorev.id}, "${gorev.gorevAdi}")' class="dropdown-item" href="#"><i class="fa-solid fa-pen"></i> Düzenle</a></li>
+                  <li><a onclick="deleteTask(${gorev.id})" class="dropdown-item" href="#"><i class="fa-solid fa-trash-can"></i> Delete</a></li>
+                  <li><a onclick= 'editTask(${gorev.id}, "${gorev.gorevAdi}")' class="dropdown-item" href="#"><i class="fa-solid fa-pen"></i> Edit</a></li>
                 </ul>
               </div>
           </li>
