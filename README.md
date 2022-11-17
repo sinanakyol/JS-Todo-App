@@ -1,6 +1,6 @@
 # To Do App
 
-_with Javascript_
+_developed using Javascript_
 
 ---
 
