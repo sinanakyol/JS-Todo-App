@@ -1,6 +1,8 @@
 # To Do App
 
-_with Javascript_
+Project Link:https://sinanakyol.github.io/JS-Todo-App/
+
+_developed using Javascript_
 
 ---
 
